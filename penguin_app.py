@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 # Load the DataFrame
 csv_file = 'penguin.csv'
-df = pd.read_csv(csv_file)
+df = pd.read_csv("penguin.csv")
 
 # Display the first five rows of the DataFrame
 df.head()
